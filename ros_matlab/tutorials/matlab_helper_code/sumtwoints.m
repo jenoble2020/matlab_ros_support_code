@@ -14,5 +14,5 @@ function response = sumtwoints(~, request, response)
 % Note: the stucture is case-sensitive. Do not use request.a or request.b
 % or request.sum.
 
-    response.Sum = request.A + request.B;  % Perform the addition
+    response.Sum = request.A * request.B;  % Perform the addition
 end
